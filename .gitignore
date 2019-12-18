@@ -6,6 +6,7 @@
 .pnp.js
 *.iml
 /.idea
+/.storybook
 
 # testing
 /coverage
