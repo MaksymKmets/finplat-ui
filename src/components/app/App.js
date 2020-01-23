@@ -1,12 +1,12 @@
 import React from 'react';
 
-import TaxlessApiService from "../../services/TaxlessApiService";
+import OperationsApiService from "../../services/OperationsApiService";
 import './App.css'
 import AppHeader from "../app-header";
 import OperationsTable from "../operations-table";
 
 export default class App extends React.Component  {
-    operationsApi = new TaxlessApiService();
+    operationsApi = new OperationsApiService();
 
     state = {
         operations: []
@@ -31,7 +31,5 @@ export default class App extends React.Component  {
             </div>
         );
     }
-
-
 
 };

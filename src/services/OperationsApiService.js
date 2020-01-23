@@ -1,4 +1,4 @@
-export default class TaxlessApiService {
+export default class OperationsApiService {
 
     _apiBase = 'http://localhost:3050/api';
 
